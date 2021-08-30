@@ -199,6 +199,7 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 300px;
 }
 
+
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
@@ -301,7 +302,7 @@ section {
   margin-bottom:10px
 }
 .about .row {
-  margin-left:340px
+  margin-left: 22%;
 }
 .about .row ul {
   list-style: none;
@@ -536,5 +537,38 @@ section {
 
   .contact .php-email-form{
     margin-left:auto;
+  }
+}
+
+@media (max-width: 1500px) {
+  .about {
+    margin-left: 170px;
+  }
+
+  .about .row {
+    margin-left: 170px;
+  }
+
+  .qualification {
+    margin-left: 170px;
+  }
+
+  .skills {
+    margin-left: 170px;
+  }
+
+  .portfolio {
+    margin-left: 170px;
+  }
+
+  .bg-image2{
+    margin-left: 170px;
+  }
+  .contact{
+    margin-top: -200px;
+  }
+  .contact .php-email-form{
+    margin-left: 260px;
+    width: 80%;
   }
 }
