@@ -403,18 +403,41 @@ section {
 }
 
 .portfolio{
-  margin-top: -370px;
+  margin-top: -430px;
 }
+
+.portfolio .project_1{
+  width: 485px;
+  height: auto;
+}
+
+.portfolio .project_2{
+  width: 485px;
+  height: 287px;
+  display: block;
+  margin-top: 15px;
+}
+
 
 @media (max-width: 768px) {
   .portfolio{
     margin-left: 30px;
     margin-top: -370px;
   }
+
+  .portfolio .project_1 {
+    width: 425px;
+    height: auto;
+  }
+
+  .portfolio .project_2 {
+    width: 425px;
+    height: 252px;
+  }
 }
 
 .contact{
-  margin-top: -270px;
+  margin-top: -115px;
 }
 
 .contact .php-email-form {
@@ -565,7 +588,7 @@ section {
     margin-left: 170px;
   }
   .contact{
-    margin-top: -200px;
+    margin-top: -130px;
   }
   .contact .php-email-form{
     margin-left: 260px;
