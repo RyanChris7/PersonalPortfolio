@@ -247,6 +247,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  #hero{
+    justify-items: center;
+  }
+  
   #hero h1 {
     font-size: 45px;
     line-height: 36px;
