@@ -447,20 +447,47 @@ section {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .portfolio{
     margin-left: 30px;
     margin-top: -370px;
   }
 
   .portfolio .project_1 {
-    width: 425px;
+    width: 300px;
     height: auto;
   }
 
   .portfolio .project_2 {
-    width: 425px;
-    height: 252px;
+    width: 300px;
+    height: 178px;
+  }
+
+  .portfolio h3{
+    font-size: 30px;
+  }
+
+  .portfolio p{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .portfolio .project_1 {
+    width: 240px;
+    height: auto;
+  }
+  .portfolio .project_2 {
+    width: 240px;
+    height: 144px;
+  }
+
+  .portfolio h3{
+    font-size: 22px;
+  }
+
+  .portfolio p{
+    font-size: 12px;
   }
 }
 
