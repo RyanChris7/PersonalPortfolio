@@ -244,15 +244,19 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
     align-items: center;
   }
+  #hero p{
+    font-size: 30px;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #hero{
     justify-items: center;
+    text-align: center;
   }
   
   #hero h1 {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 36px;
   }
   #hero h2 {
@@ -260,6 +264,25 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+  #hero p{
+    font-size: 30px;
+  }
+  #hero a{
+    margin-left:35px;
+  }
+}
+
+@media (max-width: 320px) {
+  #hero h1{
+    font-size: 30px;
+  }
+  #hero h3{
+    font-size:25px;
+  }
+  #hero p{
+    font-size: 23px;
+  }
+
 }
 
 /*Section General*/
