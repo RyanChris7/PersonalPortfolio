@@ -347,6 +347,13 @@ section {
   color: #17093a;
 }
 
+@media (min-width: 1360px){
+  .about .row {
+    margin-left: 28%;
+  }
+}
+
+
 @media (max-width: 768px) {
   .about{
     line-height: 36px;
