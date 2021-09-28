@@ -330,7 +330,7 @@ section {
   margin-bottom:10px
 }
 .about .row {
-  margin-left: 22%;
+  margin-left: 23%;
 }
 .about .row ul {
   list-style: none;
@@ -347,11 +347,11 @@ section {
   color: #17093a;
 }
 
-@media (min-width: 1360px){
+/* @media (min-width: 1450px){
   .about .row {
-    margin-left: 28%;
+    margin-left: 25%;
   }
-}
+} */
 
 
 @media (max-width: 768px) {
